@@ -5,7 +5,7 @@ on:
    types: [-opened]
 
 jobs: 
- comment-with-actions:
+ comment-with-action:
    runs-on: ubnutu-latest
    steps: 
     - name: "dump github context"
