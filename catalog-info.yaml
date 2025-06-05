@@ -8,7 +8,7 @@ metadata:
     github.com/project-slug: Jagpreet153/user-service
 spec:
   type: service
-  owner: team-user
+  owner: Jagpreet153
   lifecycle: production
   providesApis:
     - user-api
@@ -24,7 +24,7 @@ metadata:
     github.com/project-slug: Jagpreet153/order-service
 spec:
   type: service
-  owner: team-order
+  owner: Jagpreet153
   lifecycle: production
   providesApis:
     - order-api
