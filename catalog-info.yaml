@@ -13,18 +13,4 @@ spec:
   providesApis:
     - user-api
 
----
-# order-service
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: order-service
-  description: Handles order management and checkout.
-  annotations:
-    github.com/project-slug: Jagpreet153/order-service
-spec:
-  type: service
-  owner: Jagpreet153
-  lifecycle: production
-  providesApis:
-    - order-api
+
