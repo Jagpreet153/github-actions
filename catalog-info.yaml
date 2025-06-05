@@ -5,10 +5,10 @@ metadata:
   name: user-service
   description: Handles user account management.
   annotations:
-    github.com/project-slug: your-org/user-service
+    github.com/project-slug: Jagpreet153/user-service
 spec:
   type: service
-  owner: team-user
+  owner: Jagpreet153
   lifecycle: production
   providesApis:
     - user-api
