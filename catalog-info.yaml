@@ -5,8 +5,8 @@ metadata:
   name: hello-world-service
   description: A demo service with GitHub Actions workflow
   annotations:
-    github.com/project-slug: your-username-or-org/your-repo-name
+    github.com/project-slug: Jagpreet153/github-actions
 spec:
   type: service
   lifecycle: experimental
-  owner: your-team
+  owner: Jagpreet153
