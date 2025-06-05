@@ -1,0 +1,12 @@
+# catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world-service
+  description: A demo service with GitHub Actions workflow
+  annotations:
+    github.com/project-slug: your-username-or-org/your-repo-name
+spec:
+  type: service
+  lifecycle: experimental
+  owner: your-team
