@@ -1,12 +1,30 @@
-# catalog-info.yaml
+# user-service
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: hello-world-service
-  description: A demo service with GitHub Actions workflow
+  name: user-service
+  description: Handles user account management.
   annotations:
-    github.com/project-slug: Jagpreet153/github-actions
+    github.com/project-slug: your-org/user-service
 spec:
   type: service
-  lifecycle: experimental
-  owner: Jagpreet153
+  owner: team-user
+  lifecycle: production
+  providesApis:
+    - user-api
+
+---
+# order-service
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: order-service
+  description: Handles order management and checkout.
+  annotations:
+    github.com/project-slug: your-org/order-service
+spec:
+  type: service
+  owner: team-order
+  lifecycle: production
+  providesApis:
+    - order-api
