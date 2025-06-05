@@ -24,7 +24,7 @@ metadata:
     github.com/project-slug: your-org/order-service
 spec:
   type: service
-  owner: team-order
+  owner: github-actions
   lifecycle: production
   providesApis:
     - order-api
