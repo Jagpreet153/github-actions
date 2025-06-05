@@ -5,7 +5,7 @@ metadata:
   name: user-service
   description: Handles user account management.
   annotations:
-    github.com/project-slug: your-org/user-service
+    github.com/project-slug: Jagpreet153/user-service
 spec:
   type: service
   owner: team-user
@@ -21,7 +21,7 @@ metadata:
   name: order-service
   description: Handles order management and checkout.
   annotations:
-    github.com/project-slug: your-org/order-service
+    github.com/project-slug: Jagpreet153/order-service
 spec:
   type: service
   owner: team-order
