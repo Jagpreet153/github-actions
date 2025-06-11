@@ -5,7 +5,7 @@ metadata:
   description: The place to be, for great artists
   annotations:
     backstage.io/techdocs-ref: dir:.
-    github.com/project-slug: Jagpreet153/github-actions
+   backstage.io/managed-by-location: http://github.com/Jagpreet153/github-actions/actions
 spec:
   type: website
   lifecycle: production
