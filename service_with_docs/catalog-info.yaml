@@ -4,8 +4,8 @@ metadata:
   name: service-with-docs
   description: The place to be, for great artists
   annotations:
-    backstage.io/techdocs-ref: dir:.
     github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   lifecycle: production
