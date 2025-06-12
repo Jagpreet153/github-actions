@@ -5,7 +5,7 @@ metadata:
   name: user-service
   description: Handles user account management.
   annotations:
-    github.com/project-slug: Jagpreet153/user-service
+    github.com/project-slug: Jagpreet153/github-actions
 spec:
   type: service
   owner: Jagpreet153
